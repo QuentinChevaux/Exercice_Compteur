@@ -1,4 +1,4 @@
-let date_finale = new Date("Jul 20, 2022 17:00:00");
+let date_finale = new Date("20 July 2022 17:00:00");
 
 let every_second = setInterval(function() {
 
