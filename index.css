@@ -48,7 +48,7 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.jour, .heures, .minutes, .secondes {  
+#jour, #heures, #minutes, #secondes {  
     width: 25%;
     margin: auto 10px;
 }
