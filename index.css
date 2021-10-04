@@ -1,0 +1,54 @@
+body {
+	background-image: linear-gradient(to bottom right, #616C7A, #1A1D21);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	/* background-color: #363c44; */
+	color: #FFF4E1;
+	cursor: default;
+}
+h1 {
+	text-align: center; /* L'argument Justify est déconseillé car la lisibilité est horrible */
+	font-size: 50px;
+	font-family: impact;
+	text-decoration: underline overline;
+	text-decoration-color: grey;
+	text-shadow: 2px 2px #917D56; /* alignement horizontal ensuite vertical ensuite couleur */
+
+	margin-bottom: 60px;
+}
+
+#div_texte {
+    display: flex;
+    justify-content: center;
+
+    width: 75%;
+    margin: auto;
+
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+#div_texte p {
+    width: 25%;
+    padding: 0 6%;
+}
+
+#div_compteur {
+    display: flex;
+    justify-content: center;
+
+    width: 75%;
+    margin: auto;
+
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.jour, .heures, .minutes, .secondes {  
+    width: 25%;
+    margin: auto 10px;
+}
